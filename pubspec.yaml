@@ -1,0 +1,107 @@
+name: jogo
+description: "Jogar"
+
+
+publish_to: 'none' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+
+
+
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^7.0.0           # navegação declarativa
+  flutter_svg: ^2.0.0        # se quiser usar svg para o cabo
+  rive: ^0.10.0              # mais tarde, para animações complexas do mascote
+  lottie: ^2.0.0             # animações prontas (opcional)
+  animated_text_kit: ^4.2.2
+  flutter_riverpod: ^2.0.0   # gerência de estado (recomendo)
+  provider: ^6.0.0
+  shared_preferences: ^2.0.15
+  firebase_core: ^2.14.0     # Firebase (core)
+  firebase_auth: ^4.9.0      # Autenticação
+  cloud_firestore: ^4.8.0    # Banco de dados (Firestore)
+  firebase_storage: ^11.5.0  # Upload de arquivos (apólices)
+  flutter_localizations:
+    sdk: flutter
+
+  
+  
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  
+  
+  
+  
+  flutter_lints: ^5.0.0
+
+
+
+
+
+flutter:
+  assets:
+    - assets/
+    - assets/animations/
+    - assets/images/
+    - assets/lessons/
+  
+  
+  
+  uses-material-design: true
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

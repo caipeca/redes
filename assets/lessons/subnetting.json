@@ -1,0 +1,34 @@
+{
+  "id": "lesson-subnetting-1",
+  "title": "Subnetting: dividir um /24 em /26",
+  "module": "addressing",
+  "content": [
+    {
+      "type": "text",
+      "value": "Um /24 tem 256 endereços (0-255). Dividindo em /26 obtemos 4 sub-redes com 64 endereços cada."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "question": "Qual a máscara para /26?",
+      "options": [
+        {
+          "id": "a",
+          "text": "255.255.255.0"
+        },
+        {
+          "id": "b",
+          "text": "255.255.255.192"
+        },
+        {
+          "id": "c",
+          "text": "255.255.255.240"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Prefixo /26 = 32-26 = 6 bits para hosts → 2^6 = 64 endereços. Máscara = 255.255.255.192"
+    }
+  ]
+}
