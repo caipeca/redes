@@ -30,18 +30,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  go_router: ^7.0.0           # navegação declarativa
+  go_router: ^17.0.0           # navegação declarativa
   flutter_svg: ^2.0.0        # se quiser usar svg para o cabo
-  rive: ^0.10.0              # mais tarde, para animações complexas do mascote
-  lottie: ^2.0.0             # animações prontas (opcional)
+  rive: ^0.13.20              # mais tarde, para animações complexas do mascote
+  lottie: ^3.3.1             # animações prontas (opcional)
   animated_text_kit: ^4.2.2
-  flutter_riverpod: ^2.0.0   # gerência de estado (recomendo)
+  flutter_riverpod: ^3.0.3   # gerência de estado (recomendo)
   provider: ^6.0.0
   shared_preferences: ^2.0.15
-  firebase_core: ^2.14.0     # Firebase (core)
-  firebase_auth: ^4.9.0      # Autenticação
-  cloud_firestore: ^4.8.0    # Banco de dados (Firestore)
-  firebase_storage: ^11.5.0  # Upload de arquivos (apólices)
+  firebase_core: ^4.2.1     # Firebase (core)
+  firebase_auth: ^6.1.2      # Autenticação
+  cloud_firestore: ^6.1.0    # Banco de dados (Firestore)
+  firebase_storage: ^13.0.4  # Upload de arquivos (apólices)
   flutter_localizations:
     sdk: flutter
 
